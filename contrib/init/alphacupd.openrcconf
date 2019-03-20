@@ -1,0 +1,26 @@
+# /etc/conf.d/alphacupd: config file for /etc/init.d/alphacupd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/alphacup/alphacup.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/alphacupd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/alphacupd.pid"
+
+# Where to write alphacupd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/alphacupd"
+
+# User and group to own alphacupd process
+#BITCOIND_USER="alphacup"
+#BITCOIND_GROUP="alphacup"
+
+# Path to alphacupd executable
+#BITCOIND_BIN="/usr/bin/alphacupd"
+
+# Nice value to run alphacupd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

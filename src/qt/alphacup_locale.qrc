@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/alphacup_bg.qm</file>
+        <file alias="ca">locale/alphacup_ca.qm</file>
+        <file alias="cs">locale/alphacup_cs.qm</file>
+        <file alias="da">locale/alphacup_da.qm</file>
+        <file alias="de">locale/alphacup_de.qm</file>
+        <file alias="en">locale/alphacup_en.qm</file>
+        <file alias="en_US">locale/alphacup_en_US.qm</file>
+        <file alias="es">locale/alphacup_es.qm</file>
+        <file alias="fi">locale/alphacup_fi.qm</file>
+        <file alias="fr_FR">locale/alphacup_fr_FR.qm</file>
+        <file alias="hr">locale/alphacup_hr.qm</file>
+        <file alias="it">locale/alphacup_it.qm</file>
+        <file alias="ja">locale/alphacup_ja.qm</file>
+        <file alias="ko_KR">locale/alphacup_ko_KR.qm</file>
+        <file alias="nl">locale/alphacup_nl.qm</file>
+        <file alias="pl">locale/alphacup_pl.qm</file>
+        <file alias="pt">locale/alphacup_pt.qm</file>
+        <file alias="pt_BR">locale/alphacup_pt_BR.qm</file>
+        <file alias="ro_RO">locale/alphacup_ro_RO.qm</file>
+        <file alias="ru">locale/alphacup_ru.qm</file>
+        <file alias="sk">locale/alphacup_sk.qm</file>
+        <file alias="sv">locale/alphacup_sv.qm</file>
+        <file alias="tr">locale/alphacup_tr.qm</file>
+        <file alias="uk">locale/alphacup_uk.qm</file>
+        <file alias="zh_CN">locale/alphacup_zh_CN.qm</file>
+        <file alias="zh_TW">locale/alphacup_zh_TW.qm</file>
+    </qresource>
+</RCC>

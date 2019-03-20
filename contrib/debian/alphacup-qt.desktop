@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=alphacup
+Comment=alphacup P2P Cryptocurrency
+Comment[fr]=alphacup, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=alphacup, eşten eşe kriptografik sanal para birimi
+Exec=alphacup-qt %u
+Terminal=false
+Type=Application
+Icon=alphacup128
+MimeType=x-scheme-handler/alphacup;
+Categories=Office;Finance;

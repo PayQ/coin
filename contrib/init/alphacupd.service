@@ -1,0 +1,26 @@
+[Unit]
+Description=alphacup's distributed currency daemon
+After=network.target
+
+[Service]
+User=alphacup
+Group=alphacup
+
+Type=forking
+PIDFile=/var/lib/alphacupd/alphacupd.pid
+
+ExecStart=/usr/bin/alphacupd -daemon -pid=/var/lib/alphacupd/alphacupd.pid \
+          -conf=/etc/alphacup/alphacup.conf -datadir=/var/lib/alphacupd
+
+ExecStop=-/usr/bin/alphacup-cli -conf=/etc/alphacup/alphacup.conf \
+         -datadir=/var/lib/alphacupd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
